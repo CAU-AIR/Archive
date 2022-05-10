@@ -1,0 +1,11 @@
+# Folder
+PC\Image\CIFAR-10\data
+
+# Image
+*.png
+*.jpg
+
+# File
+*.zip
+*.tar
+*.tar.gz
