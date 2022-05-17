@@ -1,109 +1,66 @@
 import time
+import numpy as np
 import torch
 import shutil
 from enum import Enum
 
-def train(train_loader, model, classifier, criterion, optimizer, epoch, device):
-    print("Epoch: [{}]".format(epoch))
+feature_layers = {'8': 'AdaptiveAvgPool2d'}
 
-    batch_time = AverageMeter('Time', ':.4f')
-    data_time = AverageMeter('Data', ':.4f')
-    losses = AverageMeter('Loss', ':.4f')
-    train_acc = AverageMeter('Acc', ':.2f')
-    progress = ProgressMeter(
-        len(train_loader),
-        [batch_time, data_time, losses, train_acc],
-        prefix='Train: ')
+def get_features(x, model, layers):
+    for name, layer in enumerate(model.children()): # 0, conv
+        x = layer(x)
+        if str(name) in layers:
+            features = x
+            break
+    return features
 
-    # switch to train mode
-    model.train()
+def train(train_loader, model, device):
+    model.eval()
+    features = np.empty((0, 512), float)
+    targets = np.empty(0, float)
 
-    end = time.time()
-
-    for i, (images, target) in enumerate(train_loader):
-        # measure data loading time
-        data_time.update(time.time() - end)
-
+    for images, target in train_loader:
         if torch.cuda.is_available():
             images = images.to(device)
             target = target.cuda(device)
 
         # compute output
-        feature = model(images)
-        classifier.fit(feature, target)
-        output = classifier.predict(feature)
-        loss = criterion(output, target)
+        feature = get_features(images, model, feature_layers)
+        feature = torch.flatten(feature, 1)
 
-        # measure accuracy and record loss
-        acc = accuracy(output, target)
-        losses.update(loss.item(), images.size(0))
-        train_acc.update(acc[0], images.size(0))
+        features = np.append(features, feature.detach().cpu().numpy(), axis=0)
+        targets = np.append(targets, target.detach().cpu().numpy(), axis=0)
 
-        # compute gradient and do SGD step
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        # measure elapsed time
-        batch_time.update(time.time() - end)
-        end = time.time()
-
-        # if i % 1000 == 0:
-        #     progress.display(i)
-        if i+1 == len(train_loader):
-            progress.display(i+1)
+    return features, targets
 
 
-def validate(val_loader, model, classifier, criterion, device):
-    batch_time = AverageMeter('Time', ':.4f', Summary.NONE)
-    data_time = AverageMeter('Data', ':.4f', Summary.NONE)
-    losses = AverageMeter('Loss', ':.4f', Summary.NONE)
-    val_acc = AverageMeter('Acc', ':.2f', Summary.AVERAGE)
-    progress = ProgressMeter(
-        len(val_loader),
-        [batch_time, data_time, losses, val_acc],
-        prefix='Test: ')
+def validate(val_loader, model, device):
+    features = np.empty((0, 512), float)
+    targets = np.empty(0, float)
 
     # switch to evaluate mode
     model.eval()
 
     with torch.no_grad():
-        end = time.time()
-        for i, (images, target) in enumerate(val_loader):
-            data_time.update(time.time() - end)
-
+        for images, target in val_loader:
             if torch.cuda.is_available():
                 images = images.to(device)
                 target = target.cuda(device)
 
             # compute output
-            feature = model(images)
-            output = classifier.predict(feature)
-            loss = criterion(output, target)
+            feature = get_features(images, model, feature_layers)
+            feature = torch.flatten(feature, 1)
 
-            # measure accuracy and record loss
-            acc = accuracy(output, target)
-            losses.update(loss.item(), images.size(0))
-            val_acc.update(acc[0], images.size(0))
+            features = np.append(features, feature.detach().cpu().numpy(), axis=0)
+            targets = np.append(targets, target.detach().cpu().numpy(), axis=0)
 
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
-
-            # if i % 10 == 0:
-            #     progress.display(i)
-            if i+1 == len(val_loader):
-                progress.display(i+1)
-
-        # progress.display_summary()
-
-    return val_acc.avg
+    return features, targets
 
 
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
+def save_checkpoint(state, is_best, filename='checkpoint/checkpoint.pth.tar'):
     torch.save(state, filename)
     if is_best:
-        shutil.copyfile(filename, 'model_best.pth.tar')
+        shutil.copyfile(filename, 'checkpoint/model_best.pth.tar')
 
 
 class Summary(Enum):

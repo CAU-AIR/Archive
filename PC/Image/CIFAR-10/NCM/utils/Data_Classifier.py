@@ -1,4 +1,6 @@
 import time
+from matplotlib import image
+from numpy import imag
 import torch
 import shutil
 from enum import Enum
@@ -97,10 +99,10 @@ def validate(val_loader, model, criterion, device):
     return val_acc.avg
 
 
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
+def save_checkpoint(state, is_best, filename='checkpoint/checkpoint.pth.tar'):
     torch.save(state, filename)
     if is_best:
-        shutil.copyfile(filename, 'model_best.pth.tar')
+        shutil.copyfile(filename, 'checkpoint/model_best.pth.tar')
 
 
 class Summary(Enum):
