@@ -3,20 +3,17 @@
 '''
 
 class Info:
-    def __init__(self):
-        pass
+    def __init__(self, device):
+        self.device = device
 
     def info(self):
-        if self.reduction_method[1] is not None:
-            self.reduction_ratio = round(self.reduction_method[1]/self.feature_size, 3)
-
         config_list = {
             0 : ['Dataset', self.dataset, "Train size " + str(int((1-self.test_size)*100))+"%", 'Feature size: ' + str(self.feature_size), 1],
-            1 : ['Method', self.method, 2],
+            1 : ['Method', self.method, self.distance, 2],
             2 : ['Dimension reduction', 
                  'Method: ' + str(self.reduction_method[0]),
                  'Component size: ' + str(self.reduction_method[1]),
-                 'Feature Reduction Ratio: ' + str(self.reduction_ratio*100)+"%" if self.reduction_ratio is not None else 'Feature Reduction Ratio: ' + str(None), 3],
+                 'Feature Reduction Ratio: ' + str(round(self.reduction_method[1]/self.feature_size, 3)*100 if self.reduction_method[1] is not None else None)+"%", 3],
             3 : ['Iteration', str(self.iter), -1]
         }
 
@@ -43,5 +40,5 @@ class Info:
             rutin = str(self.device) + " - " + str(self.dataset) + "(" + str(int((1-self.test_size)*100)) + "%) - " + str(self.method) + " - " + str(self.iter) + " iteration"
             print(rutin)
         else:
-            rutin = str(self.device) + " - " + str(self.dataset) + "(" + str(int((1-self.test_size)*100)) + "%) - " + str(self.method) + " - " + str(self.iter) + " iteration - " + str(self.reduction_method[0]) + "(reduction : " + str(self.reduction_method[1]) + "%)"
+            rutin = str(self.device) + " - " + str(self.dataset) + "(" + str(int((1-self.test_size)*100)) + "%) - " + str(self.method) + " - " + str(self.iter) + " iteration - " + str(self.reduction_method[0]) + "(feature " + str(self.reduction_method[1]) + ")"
             print(rutin)
