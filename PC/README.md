@@ -51,6 +51,22 @@ Pre : Pre-trained Model
 FC : Fully-Connected Layer
 
 ### Top-5
+[LDA-ResNet-18 (Pre, ImageNet)](LDA)
+
+[1-NN(C)-ResNet-18 (Pre, ImageNet)](LDA)
+
+[1-NN(E)-ResNet-18 (Pre, ImageNet)](LDA)
+
+[NCM-ResNet-18 (Pre, ImageNet)](NCM)
+
+[LDA-ResNet-18 (Pre, ImageNet)-PCA](LDA)
+
+
+</br>
+<img align="center" src="./output.png" width=1000 height=500>
+</br>
+</br>
+</br>
 
 | Classification Method | Train Size | Test Size | Feature Extraction Method | Feature Extraction Size | Epoch | Dimension Reduction Method | Reduced Feature | Test Accuracy |
 |-----------------------|------------|-----------|---------------------------|-------------------------|-------|----------------------------|-----------------|---------------|
