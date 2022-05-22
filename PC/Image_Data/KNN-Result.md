@@ -1,5 +1,4 @@
 - [Experimental Results with KNN](#experimental-results-with-knn)
-  - [- E : Euclidian](#--e--euclidian)
   - [Comparison Results with K = 3](#comparison-results-with-k--3)
   - [Time Comparison Results](#time-comparison-results)
   - [Comparison Results with K = {1,2,3,5}](#comparison-results-with-k--1235)
@@ -11,6 +10,7 @@
 - Feature size : 784
 - The number of classes : 10
 - E : Euclidian 
+
 ---
 
 <!-- Can use Cell Merge if we use Jekyll plugin -->
