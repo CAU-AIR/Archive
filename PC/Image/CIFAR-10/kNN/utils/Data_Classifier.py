@@ -9,19 +9,22 @@ def train(train_loader, model, criterion, optimizer, epoch, device):
     print("Epoch: [{}]".format(epoch))
 
     batch_time = AverageMeter('Time', ':.4f')
+    data_time = AverageMeter('Data', ':.4f')
     losses = AverageMeter('Loss', ':.4f')
     train_acc = AverageMeter('Acc', ':.2f')
     progress = ProgressMeter(
         len(train_loader),
-        [batch_time, losses, train_acc],
+        [batch_time, data_time, losses, train_acc],
         prefix='Train: ')
 
     # switch to train mode
     model.train()
 
+    end = time.time()
+
     for i, (images, target) in enumerate(train_loader):
         # measure data loading time
-        end = time.time()
+        data_time.update(time.time() - end)
 
         if torch.cuda.is_available():
             images = images.to(device)
@@ -43,6 +46,7 @@ def train(train_loader, model, criterion, optimizer, epoch, device):
 
         # measure elapsed time
         batch_time.update(time.time() - end)
+        end = time.time()
 
         # if i % 1000 == 0:
         #     progress.display(i)

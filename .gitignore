@@ -6,6 +6,8 @@ __pycache__
 # Image
 *.png
 *.jpg
+*.csv
+*.xlsx
 
 # File
 *.zip

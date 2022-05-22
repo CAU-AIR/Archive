@@ -9,7 +9,7 @@ class Info:
     def info(self):
         config_list = {
             0 : ['Dataset', self.dataset, "Train size " + str(int((1-self.test_size)*100))+"%", 'Feature size: ' + str(self.feature_size), 1],
-            1 : ['Method', self.method, self.distance, 2],
+            1 : ['Method', self.method, 2],
             2 : ['Dimension reduction', 
                  'Method: ' + str(self.reduction_method[0]),
                  'Component size: ' + str(self.reduction_method[1]),
