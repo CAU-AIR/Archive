@@ -15,7 +15,7 @@ Memory | 64GB
 GPU | RTX 3070 Ti 8GB
 
 # CIFAR-10
-| Method | Train Size | Test Size | Feature Extraction Method | Feature Extraction Size |  Epoch  | Dimension Reduction Method | Reduced Feature | IID </br> (Acc/ Forgetting) | CLS IID (Acc/ Forgetting) | INST (Acc/ Forgetting) | CLS INST (Acc/ Forgetting) |
+| Method | Train Size | Test Size | Feature Extraction Method | Feature Extraction Size |  Epoch  | Dimension Reduction Method | Reduced Feature | IID </br> (Accuracy / Forgetting) | CLS IID </br> (Accuracy / Forgetting) | INST </br> (Accuracy / Forgetting) | CLS INST (Acc/ Forgetting) |
 |:------:|:----------:|:---------:|:-------------------------:|:-----------------------:|:-------:|:--------------------------:|:---------------:|:---------------------:|:-------------------------:|:----------------------:|:--------------------------:|
 |   NCM  |   40,000   |   10,000  |           -               |           -             |   10  |             -              |        -        |         27.14 / -       |             -            |            -          |              -             |
-|   kNN  |    1000    |    100    |           ResNet          |           512           |       |             pca            |        2        |           x           |           60/()           |           70           |             80             |
+|   kNN  |    1000    |    100    |           ResNet          |           512           |       |             pca            |        2        |            x            |           60/()          |           70          |             80             |
