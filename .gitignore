@@ -4,7 +4,6 @@ checkpoint
 __pycache__
 
 # Image
-*.png
 *.jpg
 *.csv
 *.xlsx
