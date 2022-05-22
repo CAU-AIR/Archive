@@ -10,6 +10,7 @@
 - Feature size : 784
 - The number of classes : 10
 - E : Euclidian 
+- PCA -Proportion of variance : 26-(70%), 43-(80%)
 
 ---
 
