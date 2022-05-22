@@ -8,6 +8,9 @@
 - Image size : 28 x 28
 - Feature size : 784
 - The number of classes : 10
+- PCA -Proportion of variance : 26-(70%), 43-(80%)
+
+
 
 ---
 
