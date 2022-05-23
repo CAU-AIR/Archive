@@ -19,9 +19,11 @@ GPU | RTX 3070 Ti 8GB
 ## Method Comparison - Version 1
 | Classification Method | Train Size | Test Size | Feature Extraction Method | Feature Extraction Size | Epoch | Dimension Reduction Method | Reduced Feature | Test Accuracy |
 |:---------------------:|:----------:|:---------:|:-------------------------:|:-----------------------:|:-----:|:--------------------------:|:---------------:|:-------------:|
+| FC                    | 50,000     | 10,000    | ResNet-18                 | 512 (16.7%)             | 100   | -                          | -               | 86.55%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 86.19%        |
 | 1-NN(C)               | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 81.89%        |
 | 1-NN(E)               | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 80.29%        |
+| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 80.27%        |
 | NCM                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 76.98%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | PCA                        | 9 (0.29%)       | 68.69%        |
 | NCM                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | PCA                        | 9 (0.29%)       | 67.27%        |
@@ -51,15 +53,15 @@ Pre : Pre-trained Model
 FC : Fully-Connected Layer
 
 ### Top-5
+[FC-ResNet-18](NCM)
+
 [LDA-ResNet-18 (Pre, ImageNet)](LDA)
 
 [1-NN(C)-ResNet-18 (Pre, ImageNet)](LDA)
 
 [1-NN(E)-ResNet-18 (Pre, ImageNet)](LDA)
 
-[NCM-ResNet-18 (Pre, ImageNet)](NCM)
-
-[LDA-ResNet-18 (Pre, ImageNet)-PCA](LDA)
+[FC-ResNet-18 (Pre, ImageNet)](LDA)
 
 
 </br>
@@ -105,7 +107,10 @@ FC : Fully-Connected Layer
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 86.19%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | PCA                        | 9 (0.29%)       | 68.69%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | LDA                        | 9 (0.29%)       |               |
-|                       |            |           |                           |                         |       |                            |                 |               |
+| FC                    | 50,000     | 10,000    | ResNet-18                 | 512 (16.7%)             | 100   | -                          | -               | 86.55%        |
+| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 100   | -                          | -               | 80.27%        |
+| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | PCA                        | 9 (0.29%)       |               |
+| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 100   | LDA                        | 9 (0.29%)       |               |
 
 ### Time
 | Method | Training Feature Extraction Time | Training Dimension Reduction Time | Model Training Time | Incremental Model Training Time | Inference Dimension Reduction Time | Inference Feature Extraction Time | Model Inference Time |
