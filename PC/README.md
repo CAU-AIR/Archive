@@ -57,7 +57,7 @@ FC : Fully-Connected Layer
 
 [LDA-ResNet-18 (Pre, ImageNet)](#lda)
 
-### 1-NN(C)-ResNet-18 (Pre, ImageNet)
+[1-NN(C)-ResNet-18 (Pre, ImageNet)]
 
 [1-NN(E)-ResNet-18 (Pre, ImageNet)](#1-nn(e))
 
@@ -90,7 +90,7 @@ FC : Fully-Connected Layer
 | 1-NN(C)               | 40,000     | 10,000    | -                         | -                       | 10    | PCA                        | 2,304 (75%)     | 39.56%        |
 | 1-NN(C)               | 40,000     | 10,000    | -                         | -                       | 10    | PCA                        | 512 (16.7%)     | 40.00%        |
 | 1-NN(C)               | 40,000     | 10,000    | -                         | -                       | 10    | LDA                        | 9 (0.29%)       |               |
-| [1-NN(C)](#1-NN(C)-ResNet-18 (Pre, ImageNet))            | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 1     | -                          | -               | 81.89%        |
+| 1-NN(C)               | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 1     | -                          | -               | 81.89%        |
 | 1-NN(C)               | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | PCA                        | 9 (0.29%)       | 63.89%        |
 | 1-NN(C)               | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | LDA                        | 9 (0.29%)       |               |
 | NCM                   | 40,000     | 10,000    | -                         | -                       | 10    | -                          | 3,072 (100%)    | 27.14%        |
@@ -107,8 +107,8 @@ FC : Fully-Connected Layer
 | #LDA                  | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 1     | -                          | -               | 86.19%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | PCA                        | 9 (0.29%)       | 68.69%        |
 | LDA                   | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | LDA                        | 9 (0.29%)       |               |
-| #FC                   | 50,000     | 10,000    | ResNet-18                 | 512 (16.7%)             | 100   | -                          | -               | 86.55%        |
-| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 1     | -                          | -               | #80.27%       |
+| FC                    | 50,000     | 10,000    | ResNet-18                 | 512 (16.7%)             | 100   | -                          | -               | 86.55%        |
+| FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512 (16.7%)             | 1     | -                          | -               | 80.27%        |
 | FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | PCA                        | 9 (0.29%)       |               |
 | FC                    | 50,000     | 10,000    | ResNet-18 (Pre, ImageNet) | 512                     | 1     | LDA                        | 9 (0.29%)       |               |
 
