@@ -12,3 +12,16 @@ __pycache__
 *.zip
 *.tar
 *.tar.gz
+*.txt
+
+#WandB
+*.wandb
+*.log
+*.patch
+debug
+
+#yaml
+*.yaml
+
+#json
+*.json
