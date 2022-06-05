@@ -1,0 +1,710 @@
+-- >> Start of training phase << --
+-- Starting training on experience 0 (Task 0) from train stream --
+Epoch 0 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 120869.6260
+	DiskUsage_MB/train_phase/train_stream/Task000 = 120869.6260
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0536
+	Loss_MB/train_phase/train_stream/Task000 = 0.0007
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0005
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4190
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9845
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 1 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 120958.0879
+	DiskUsage_MB/train_phase/train_stream/Task000 = 120958.0879
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0148
+	Loss_MB/train_phase/train_stream/Task000 = 0.0013
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.2908
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9950
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 2 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121050.5498
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121050.5498
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0068
+	Loss_MB/train_phase/train_stream/Task000 = 0.0004
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.3486
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9980
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 3 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121143.0117
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121143.0117
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0036
+	Loss_MB/train_phase/train_stream/Task000 = 0.0006
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.3422
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9993
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 4 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121231.4736
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121231.4736
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0018
+	Loss_MB/train_phase/train_stream/Task000 = 0.0002
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.3969
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9995
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 5 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121323.9355
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121323.9355
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0011
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.3507
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9998
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 6 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121412.3975
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121412.3975
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0005
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4753
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 7 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121504.8594
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121504.8594
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0003
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.8471
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 8 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121593.3213
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121593.3213
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0002
+	Loss_MB/train_phase/train_stream/Task000 = 0.0001
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4018
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 9 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121685.7832
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121685.7832
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0002
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4632
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+-- >> End of training phase << --
+-- >> Start of eval phase << --
+-- Starting eval on experience 0 (Task 0) from test stream --
+> Eval on experience 0 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 100.1304
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 121686.3701
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.0016
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9991
+-- Starting eval on experience 1 (Task 0) from test stream --
+> Eval on experience 1 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 97.8585
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 121686.7275
+	Loss_Exp/eval_phase/test_stream/Task000/Exp001 = 10.7515
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp001 = 0.0000
+-- Starting eval on experience 2 (Task 0) from test stream --
+> Eval on experience 2 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 100.4043
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 121687.0850
+	Loss_Exp/eval_phase/test_stream/Task000/Exp002 = 13.5271
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp002 = 0.0000
+-- Starting eval on experience 3 (Task 0) from test stream --
+> Eval on experience 3 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 99.0697
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 121687.4434
+	Loss_Exp/eval_phase/test_stream/Task000/Exp003 = 11.1920
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp003 = 0.0000
+-- Starting eval on experience 4 (Task 0) from test stream --
+> Eval on experience 4 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 97.7365
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 121687.8008
+	Loss_Exp/eval_phase/test_stream/Task000/Exp004 = 14.6935
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp004 = 0.0000
+-- >> End of eval phase << --
+	ConfusionMatrix_Stream/eval_phase/test_stream = 
+tensor([[   0,  361,    0,    0,  619,    0,    0,    0,    0,    0],
+        [   0, 1133,    0,    0,    2,    0,    0,    0,    0,    0],
+        [   0,  644,    0,    0,  388,    0,    0,    0,    0,    0],
+        [   0,  718,    0,    0,  292,    0,    0,    0,    0,    0],
+        [   0,    0,    0,    0,  982,    0,    0,    0,    0,    0],
+        [   0,  318,    0,    0,  574,    0,    0,    0,    0,    0],
+        [   0,   63,    0,    0,  895,    0,    0,    0,    0,    0],
+        [   0,  310,    0,    0,  718,    0,    0,    0,    0,    0],
+        [   0,  404,    0,    0,  570,    0,    0,    0,    0,    0],
+        [   0,   31,    0,    0,  978,    0,    0,    0,    0,    0]])
+	DiskUsage_Stream/eval_phase/test_stream/Task000 = 121687.8008
+	Loss_Stream/eval_phase/test_stream/Task000 = 9.9067
+	StreamForgetting/eval_phase/test_stream = 0.0000
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.2115
+-- >> Start of training phase << --
+-- Starting training on experience 1 (Task 0) from train stream --
+Epoch 0 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121785.1787
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121785.1787
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.1664
+	Loss_MB/train_phase/train_stream/Task000 = 0.0414
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0000
+	Time_Epoch/train_phase/train_stream/Task000 = 4.3516
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9480
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 1 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121877.6406
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121877.6406
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0494
+	Loss_MB/train_phase/train_stream/Task000 = 0.0041
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4552
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9855
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 2 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 121970.1025
+	DiskUsage_MB/train_phase/train_stream/Task000 = 121970.1025
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0186
+	Loss_MB/train_phase/train_stream/Task000 = 0.0006
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 5.0242
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9948
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 3 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122058.5645
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122058.5645
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0061
+	Loss_MB/train_phase/train_stream/Task000 = 0.0047
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 6.7086
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9986
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 4 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122151.0264
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122151.0264
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0034
+	Loss_MB/train_phase/train_stream/Task000 = 0.0009
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 5.8626
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9995
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 5 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122239.4883
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122239.4883
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0020
+	Loss_MB/train_phase/train_stream/Task000 = 0.0005
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4294
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9998
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 6 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122331.9502
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122331.9502
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0010
+	Loss_MB/train_phase/train_stream/Task000 = 0.0001
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4709
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 7 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122424.4121
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122424.4121
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0005
+	Loss_MB/train_phase/train_stream/Task000 = 0.0014
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.4934
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 8 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122512.8740
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122512.8740
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0004
+	Loss_MB/train_phase/train_stream/Task000 = 0.0006
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5254
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 9 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122605.3359
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122605.3359
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0003
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5005
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+-- >> End of training phase << --
+-- >> Start of eval phase << --
+-- Starting eval on experience 0 (Task 0) from test stream --
+> Eval on experience 0 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 99.8228
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 122605.9229
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp000 = 0.0052
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.0238
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9939
+-- Starting eval on experience 1 (Task 0) from test stream --
+> Eval on experience 1 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 96.7769
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 122606.3467
+	Loss_Exp/eval_phase/test_stream/Task000/Exp001 = 0.0764
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp001 = 0.9797
+-- Starting eval on experience 2 (Task 0) from test stream --
+> Eval on experience 2 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 100.5968
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 122606.7031
+	Loss_Exp/eval_phase/test_stream/Task000/Exp002 = 15.7950
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp002 = 0.0000
+-- Starting eval on experience 3 (Task 0) from test stream --
+> Eval on experience 3 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 98.8437
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 122607.0615
+	Loss_Exp/eval_phase/test_stream/Task000/Exp003 = 18.2743
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp003 = 0.0000
+-- Starting eval on experience 4 (Task 0) from test stream --
+> Eval on experience 4 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 99.7631
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 122607.4189
+	Loss_Exp/eval_phase/test_stream/Task000/Exp004 = 15.4000
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp004 = 0.0000
+-- >> End of eval phase << --
+	ConfusionMatrix_Stream/eval_phase/test_stream = 
+tensor([[   0,    0,    0,    0,    5,  925,    0,   50,    0,    0],
+        [   0, 1130,    0,    0,    1,    4,    0,    0,    0,    0],
+        [   0,  371,    0,    0,  287,  221,    0,  153,    0,    0],
+        [   0,   57,    0,    0,    7,  851,    0,   95,    0,    0],
+        [   0,    3,    0,    0,  974,    2,    0,    3,    0,    0],
+        [   0,    2,    0,    0,    2,  883,    0,    5,    0,    0],
+        [   0,   13,    0,    0,  626,  313,    0,    6,    0,    0],
+        [   0,   17,    0,    0,   11,    2,    0,  998,    0,    0],
+        [   0,   87,    0,    0,  195,  616,    0,   76,    0,    0],
+        [   0,   13,    0,    0,  569,   35,    0,  392,    0,    0]])
+	DiskUsage_Stream/eval_phase/test_stream/Task000 = 122607.4189
+	Loss_Stream/eval_phase/test_stream/Task000 = 9.8441
+	StreamForgetting/eval_phase/test_stream = 0.0052
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.3985
+-- >> Start of training phase << --
+-- Starting training on experience 2 (Task 0) from train stream --
+Epoch 0 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122704.7969
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122704.7969
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.4240
+	Loss_MB/train_phase/train_stream/Task000 = 0.2093
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5995
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.8548
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 1 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122795.4316
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122795.4316
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.1556
+	Loss_MB/train_phase/train_stream/Task000 = 0.1359
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 5.1637
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9489
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 2 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122887.8936
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122887.8936
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0944
+	Loss_MB/train_phase/train_stream/Task000 = 0.0793
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5829
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9698
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 3 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 122976.3555
+	DiskUsage_MB/train_phase/train_stream/Task000 = 122976.3555
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0530
+	Loss_MB/train_phase/train_stream/Task000 = 0.0063
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5934
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9827
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 4 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123068.8174
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123068.8174
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0258
+	Loss_MB/train_phase/train_stream/Task000 = 0.0202
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5570
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9925
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 5 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123161.2793
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123161.2793
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0237
+	Loss_MB/train_phase/train_stream/Task000 = 0.0019
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.5245
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9934
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 6 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123249.7412
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123249.7412
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0041
+	Loss_MB/train_phase/train_stream/Task000 = 0.0005
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7315
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9998
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 7 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123342.2031
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123342.2031
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0017
+	Loss_MB/train_phase/train_stream/Task000 = 0.0003
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.8564
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 8 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123430.6650
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123430.6650
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0009
+	Loss_MB/train_phase/train_stream/Task000 = 0.0015
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6252
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 9 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123523.1270
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123523.1270
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0007
+	Loss_MB/train_phase/train_stream/Task000 = 0.0000
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6483
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+-- >> End of training phase << --
+-- >> Start of eval phase << --
+-- Starting eval on experience 0 (Task 0) from test stream --
+> Eval on experience 0 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 98.7732
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 123523.7139
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp000 = 0.0213
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.0948
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9778
+-- Starting eval on experience 1 (Task 0) from test stream --
+> Eval on experience 1 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 98.0601
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 123524.1377
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp001 = 0.0161
+	Loss_Exp/eval_phase/test_stream/Task000/Exp001 = 0.1338
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp001 = 0.9635
+-- Starting eval on experience 2 (Task 0) from test stream --
+> Eval on experience 2 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 98.2829
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 123524.5615
+	Loss_Exp/eval_phase/test_stream/Task000/Exp002 = 0.1584
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp002 = 0.9609
+-- Starting eval on experience 3 (Task 0) from test stream --
+> Eval on experience 3 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 99.4606
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 123524.9180
+	Loss_Exp/eval_phase/test_stream/Task000/Exp003 = 15.1467
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp003 = 0.0000
+-- Starting eval on experience 4 (Task 0) from test stream --
+> Eval on experience 4 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 96.8591
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 123525.2754
+	Loss_Exp/eval_phase/test_stream/Task000/Exp004 = 15.8033
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp004 = 0.0000
+-- >> End of eval phase << --
+	ConfusionMatrix_Stream/eval_phase/test_stream = 
+tensor([[   0,    0,    0,   55,    7,  751,    0,   39,    0,  128],
+        [   0, 1125,    0,    4,    1,    3,    0,    2,    0,    0],
+        [   0,   65,    0,  638,  154,   32,    0,   81,    0,   62],
+        [   0,    1,    0,  975,    2,   15,    0,    7,    0,   10],
+        [   0,    1,    0,    0,  945,    2,    0,    4,    0,   30],
+        [   0,    1,    0,   19,    3,  865,    0,    2,    0,    2],
+        [   0,   14,    0,   10,  596,  320,    0,    5,    0,   13],
+        [   0,   12,    0,   10,    4,    1,    0,  985,    0,   16],
+        [   0,   54,    0,  230,   68,  259,    0,   18,    0,  345],
+        [   0,    7,    0,    8,   17,    5,    0,    7,    0,  965]])
+	DiskUsage_Stream/eval_phase/test_stream/Task000 = 123525.2754
+	Loss_Stream/eval_phase/test_stream/Task000 = 6.1823
+	StreamForgetting/eval_phase/test_stream = 0.0187
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.5860
+-- >> Start of training phase << --
+-- Starting training on experience 3 (Task 0) from train stream --
+Epoch 0 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123622.6533
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123622.6533
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5232
+	Loss_MB/train_phase/train_stream/Task000 = 0.2852
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6768
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.8291
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 1 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123715.1152
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123715.1152
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.1907
+	Loss_MB/train_phase/train_stream/Task000 = 0.1217
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6656
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9366
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 2 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123807.5771
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123807.5771
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.1048
+	Loss_MB/train_phase/train_stream/Task000 = 0.0806
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7499
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9625
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 3 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123896.0391
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123896.0391
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0491
+	Loss_MB/train_phase/train_stream/Task000 = 0.0151
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6906
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9848
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 4 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 123988.5010
+	DiskUsage_MB/train_phase/train_stream/Task000 = 123988.5010
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0286
+	Loss_MB/train_phase/train_stream/Task000 = 0.0680
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7091
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9907
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 5 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124076.9629
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124076.9629
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0185
+	Loss_MB/train_phase/train_stream/Task000 = 0.0001
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6907
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9955
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 6 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124169.4248
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124169.4248
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0221
+	Loss_MB/train_phase/train_stream/Task000 = 0.0085
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6485
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9936
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 7 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124257.8867
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124257.8867
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0045
+	Loss_MB/train_phase/train_stream/Task000 = 0.0003
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.6982
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9989
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 8 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124350.3486
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124350.3486
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0015
+	Loss_MB/train_phase/train_stream/Task000 = 0.0027
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7345
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 9 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124442.8105
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124442.8105
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0009
+	Loss_MB/train_phase/train_stream/Task000 = 0.0005
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7472
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+-- >> End of training phase << --
+-- >> Start of eval phase << --
+-- Starting eval on experience 0 (Task 0) from test stream --
+> Eval on experience 0 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 99.8301
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 124443.3975
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp000 = 0.0213
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.0973
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9778
+-- Starting eval on experience 1 (Task 0) from test stream --
+> Eval on experience 1 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 99.5590
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 124443.8213
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp001 = 0.0312
+	Loss_Exp/eval_phase/test_stream/Task000/Exp001 = 0.1726
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp001 = 0.9484
+-- Starting eval on experience 2 (Task 0) from test stream --
+> Eval on experience 2 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 102.0840
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 124444.2451
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp002 = 0.0104
+	Loss_Exp/eval_phase/test_stream/Task000/Exp002 = 0.2023
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp002 = 0.9505
+-- Starting eval on experience 3 (Task 0) from test stream --
+> Eval on experience 3 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 97.6917
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 124444.6699
+	Loss_Exp/eval_phase/test_stream/Task000/Exp003 = 0.1539
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp003 = 0.9672
+-- Starting eval on experience 4 (Task 0) from test stream --
+> Eval on experience 4 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 97.4872
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 124445.0264
+	Loss_Exp/eval_phase/test_stream/Task000/Exp004 = 15.3768
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp004 = 0.0000
+-- >> End of eval phase << --
+	ConfusionMatrix_Stream/eval_phase/test_stream = 
+tensor([[ 965,    0,    0,    3,    2,    1,    0,    3,    1,    5],
+        [   0, 1125,    0,    5,    0,    1,    0,    2,    2,    0],
+        [ 127,   59,    0,  342,   86,    5,    0,   57,  344,   12],
+        [   0,    1,    0,  971,    1,   17,    0,    7,   10,    3],
+        [   1,    1,    0,    0,  945,    1,    0,    2,    3,   29],
+        [   4,    1,    0,   23,    3,  839,    0,    2,   13,    7],
+        [  74,   17,    0,    3,  545,  182,    0,    8,  118,   11],
+        [   2,   12,    0,    9,    4,    0,    0,  982,    1,   18],
+        [   5,    2,    0,   10,    8,   11,    0,    8,  925,    5],
+        [   6,    5,    0,   13,   19,    4,    0,    9,    5,  948]])
+	DiskUsage_Stream/eval_phase/test_stream/Task000 = 124445.0264
+	Loss_Stream/eval_phase/test_stream/Task000 = 3.1846
+	StreamForgetting/eval_phase/test_stream = 0.0210
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.7700
+-- >> Start of training phase << --
+-- Starting training on experience 4 (Task 0) from train stream --
+Epoch 0 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124542.4043
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124542.4043
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.5873
+	Loss_MB/train_phase/train_stream/Task000 = 0.0547
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7774
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.8139
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 1 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124634.8662
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124634.8662
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.2207
+	Loss_MB/train_phase/train_stream/Task000 = 0.2357
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7489
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9268
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 2 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124723.3281
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124723.3281
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.1198
+	Loss_MB/train_phase/train_stream/Task000 = 0.0746
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.7762
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9577
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 3 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124815.7900
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124815.7900
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0667
+	Loss_MB/train_phase/train_stream/Task000 = 0.1037
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.8969
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9791
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 0.9375
+Epoch 4 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124904.9736
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124904.9736
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0309
+	Loss_MB/train_phase/train_stream/Task000 = 0.0580
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9560
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9907
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 5 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 124997.4355
+	DiskUsage_MB/train_phase/train_stream/Task000 = 124997.4355
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0109
+	Loss_MB/train_phase/train_stream/Task000 = 0.0016
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9339
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9968
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 6 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 125085.8975
+	DiskUsage_MB/train_phase/train_stream/Task000 = 125085.8975
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0067
+	Loss_MB/train_phase/train_stream/Task000 = 0.0052
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9154
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9984
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 7 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 125178.3594
+	DiskUsage_MB/train_phase/train_stream/Task000 = 125178.3594
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0021
+	Loss_MB/train_phase/train_stream/Task000 = 0.0004
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9593
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 0.9998
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 8 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 125270.8213
+	DiskUsage_MB/train_phase/train_stream/Task000 = 125270.8213
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0012
+	Loss_MB/train_phase/train_stream/Task000 = 0.0002
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9896
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+Epoch 9 ended.
+	DiskUsage_Epoch/train_phase/train_stream/Task000 = 125359.2832
+	DiskUsage_MB/train_phase/train_stream/Task000 = 125359.2832
+	Loss_Epoch/train_phase/train_stream/Task000 = 0.0009
+	Loss_MB/train_phase/train_stream/Task000 = 0.0005
+	RunningTime_Epoch/train_phase/train_stream/Task000 = 0.0001
+	Time_Epoch/train_phase/train_stream/Task000 = 4.9848
+	Top1_Acc_Epoch/train_phase/train_stream/Task000 = 1.0000
+	Top1_Acc_MB/train_phase/train_stream/Task000 = 1.0000
+-- >> End of training phase << --
+-- >> Start of eval phase << --
+-- Starting eval on experience 0 (Task 0) from test stream --
+> Eval on experience 0 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 98.7546
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp000 = 125359.8701
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp000 = 0.0283
+	Loss_Exp/eval_phase/test_stream/Task000/Exp000 = 0.1376
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp000 = 0.9707
+-- Starting eval on experience 1 (Task 0) from test stream --
+> Eval on experience 1 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 97.1173
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp001 = 125360.2939
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp001 = 0.0443
+	Loss_Exp/eval_phase/test_stream/Task000/Exp001 = 0.2633
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp001 = 0.9354
+-- Starting eval on experience 2 (Task 0) from test stream --
+> Eval on experience 2 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 98.2123
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp002 = 125364.7178
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp002 = 0.0094
+	Loss_Exp/eval_phase/test_stream/Task000/Exp002 = 0.2109
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp002 = 0.9515
+-- Starting eval on experience 3 (Task 0) from test stream --
+> Eval on experience 3 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 97.3339
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp003 = 125365.1416
+	ExperienceForgetting/eval_phase/test_stream/Task000/Exp003 = 0.0051
+	Loss_Exp/eval_phase/test_stream/Task000/Exp003 = 0.1745
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp003 = 0.9621
+-- Starting eval on experience 4 (Task 0) from test stream --
+> Eval on experience 4 (Task 0) from test stream ended.
+	CPUUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 96.1396
+	DiskUsage_Exp/eval_phase/test_stream/Task000/Exp004 = 125365.5654
+	Loss_Exp/eval_phase/test_stream/Task000/Exp004 = 0.2826
+	Top1_Acc_Exp/eval_phase/test_stream/Task000/Exp004 = 0.9442
+-- >> End of eval phase << --
+	ConfusionMatrix_Stream/eval_phase/test_stream = 
+tensor([[ 961,    0,    2,    1,    0,    4,    5,    2,    3,    2],
+        [   0, 1118,    2,    3,    0,    1,    4,    3,    4,    0],
+        [  20,    1,  965,    5,   10,    0,    5,   13,   12,    1],
+        [   0,    0,   12,  968,    0,    5,    1,    7,   16,    1],
+        [   0,    1,    1,    0,  937,    0,   14,    1,    5,   23],
+        [   5,    1,    1,   23,    2,  828,   11,    3,   12,    6],
+        [   6,    3,    4,    1,   11,   11,  914,    3,    5,    0],
+        [   3,    9,   16,    7,    5,    0,    1,  968,    0,   19],
+        [   6,    1,    5,   12,    4,    7,    5,    8,  919,    7],
+        [   4,    6,    1,    9,   17,    2,    1,    8,    8,  953]])
+	DiskUsage_Stream/eval_phase/test_stream/Task000 = 125365.5654
+	Loss_Stream/eval_phase/test_stream/Task000 = 0.2126
+	StreamForgetting/eval_phase/test_stream = 0.0218
+	Top1_Acc_Stream/eval_phase/test_stream/Task000 = 0.9531
