@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-06-05T22:23:25.514063",
+    "startedAt": "2022-06-05T22:23:22.680882",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"0c0a0d36-ad08-4c6e-8ef1-529673935c3f\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=c:\\Users\\LAB\\AppData\\Roaming\\jupyter\\runtime\\kernel-19864Tf1MzB6OtFCb.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/CAU-AIR/Archive.git",
+        "commit": "7ed0b4af104b69dee082b7496183e7b4e9ee6155"
+    },
+    "email": "hopo5798@gmail.com",
+    "root": "c:/Users/LAB/Desktop/Archive",
+    "host": "DESKTOP-SN9SDA9",
+    "username": "LAB",
+    "executable": "c:\\Users\\LAB\\Anaconda3\\envs\\lab\\python.exe"
+}
