@@ -4,6 +4,7 @@ from avalanche.benchmarks.classic import CORe50, OpenLORIS, CLStream51
 dataset = CORe50(scenario="nc", mini=True) # original 128x128, mini 32x32
 # scenario : nbatches
 # "ni": 8, "nc": 9, "nic": 79, "nicv2_79": 79, "nicv2_196": 196, "nicv2_391": 391
+### 새로운 시나리오 적용 시 avalanche.benchmarks.classic.{해당 데이터}.py에서 시나리오에따라 파일 경로 list 설정하는 부분 수정 or 추가
 
 ## OpenLORIS
 dataset = OpenLORIS(factor="clutter")
