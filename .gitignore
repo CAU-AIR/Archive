@@ -2,6 +2,7 @@
 data
 checkpoint
 __pycache__
+wandb
 
 # Image
 *.jpg
