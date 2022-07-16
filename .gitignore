@@ -1,6 +1,7 @@
 # Folder
 data
 checkpoint
+Data
 __pycache__
 wandb
 
