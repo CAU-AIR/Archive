@@ -5,7 +5,12 @@ from numpy import imag
 import torch
 from sklearn import preprocessing
 from torch.utils.data import Dataset
-from avalanche.benchmarks.utils import AvalancheDataset
+from avalanche.benchmarks.utils import (
+    AvalancheDataset,
+    PathsDataset,
+    common_paths_root,
+)
+from avalanche.benchmarks.utils.dataset_definitions import IDataset
 from tqdm import trange
 
 def get_image_list(data_path):
@@ -26,8 +31,19 @@ def get_image_list(data_path):
 
     return image, label
 
+def dataset_list(x_data, y_data):
+    dataset = []
+    file_list = []
 
-class ImageDataset(AvalancheDataset):
+    for idx, data in enumerate(x_data):
+        instance_tuple = (data, y_data[idx])
+        file_list.append(instance_tuple)
+
+    dataset.append(file_list)
+
+    return dataset
+
+class ImageDataset(IDataset):
     def __init__(self, image_list, label_list):
         self.image_list = image_list
         self.lable_list = label_list
@@ -37,12 +53,18 @@ class ImageDataset(AvalancheDataset):
 
     def __getitem__(self, idx):
         image = cv2.imread(self.image_list[idx], cv2.IMREAD_COLOR)
-        # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = torch.tensor(image).float()
 
         target = self.lable_list[idx]
         target = torch.tensor(target).float()
 
         return image, target
-        
 
+def PathDataset(dataset, transfrom, mode):
+    for exp_id, list_of_files in enumerate(dataset):
+        common_root, exp_paths_list = common_paths_root(list_of_files)
+        paths_dataset = PathsDataset(common_root, exp_paths_list)
+        stream_datasets = AvalancheDataset(paths_dataset, transform_groups=transfrom, initial_transform_group=mode)
+
+    return stream_datasets
+    
