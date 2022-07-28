@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.scrollback": 3000
+    "terminal.integrated.scrollback": 3000,
+    "python.pythonPath": "/home/cal-06/anaconda3/envs/hspark/bin/python"
 }
